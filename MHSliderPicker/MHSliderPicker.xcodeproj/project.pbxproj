@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9485B36E1D5470CF00F672CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9485B36D1D5470CF00F672CA /* main.m */; };
+		9485B3771D5470CF00F672CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9485B3751D5470CF00F672CA /* Main.storyboard */; };
+		9485B3791D5470CF00F672CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9485B3781D5470CF00F672CA /* Assets.xcassets */; };
+		9485B37C1D5470CF00F672CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9485B37A1D5470CF00F672CA /* LaunchScreen.storyboard */; };
+		9485B3851D54712D00F672CA /* MHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9485B3841D54712D00F672CA /* MHAppDelegate.m */; };
+		949737A01D58373900035039 /* MHSliderPickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9497379F1D58373900035039 /* MHSliderPickerItem.m */; };
+		949737A31D58374A00035039 /* MHSliderMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 949737A21D58374A00035039 /* MHSliderMenu.m */; };
+		949737A61D589A1000035039 /* MHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949737A51D589A1000035039 /* MHViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9485B3691D5470CF00F672CA /* MHSliderPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHSliderPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9485B36D1D5470CF00F672CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9485B3761D5470CF00F672CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9485B3781D5470CF00F672CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9485B37B1D5470CF00F672CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9485B37D1D5470CF00F672CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9485B3831D54712D00F672CA /* MHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHAppDelegate.h; sourceTree = "<group>"; };
+		9485B3841D54712D00F672CA /* MHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHAppDelegate.m; sourceTree = "<group>"; };
+		9497379E1D58373900035039 /* MHSliderPickerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHSliderPickerItem.h; sourceTree = "<group>"; };
+		9497379F1D58373900035039 /* MHSliderPickerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHSliderPickerItem.m; sourceTree = "<group>"; };
+		949737A11D58374A00035039 /* MHSliderMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHSliderMenu.h; sourceTree = "<group>"; };
+		949737A21D58374A00035039 /* MHSliderMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHSliderMenu.m; sourceTree = "<group>"; };
+		949737A41D589A1000035039 /* MHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHViewController.h; sourceTree = "<group>"; };
+		949737A51D589A1000035039 /* MHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9485B3661D5470CF00F672CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9485B3601D5470CF00F672CA = {
+			isa = PBXGroup;
+			children = (
+				9485B36B1D5470CF00F672CA /* MHSliderPicker */,
+				9485B36A1D5470CF00F672CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9485B36A1D5470CF00F672CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9485B3691D5470CF00F672CA /* MHSliderPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9485B36B1D5470CF00F672CA /* MHSliderPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9485B3861D54719900F672CA /* Classes */,
+				9485B3831D54712D00F672CA /* MHAppDelegate.h */,
+				9485B3841D54712D00F672CA /* MHAppDelegate.m */,
+				949737A41D589A1000035039 /* MHViewController.h */,
+				949737A51D589A1000035039 /* MHViewController.m */,
+				9485B3751D5470CF00F672CA /* Main.storyboard */,
+				9485B3781D5470CF00F672CA /* Assets.xcassets */,
+				9485B37A1D5470CF00F672CA /* LaunchScreen.storyboard */,
+				9485B37D1D5470CF00F672CA /* Info.plist */,
+				9485B36C1D5470CF00F672CA /* Supporting Files */,
+			);
+			path = MHSliderPicker;
+			sourceTree = "<group>";
+		};
+		9485B36C1D5470CF00F672CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9485B36D1D5470CF00F672CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9485B3861D54719900F672CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				949737A11D58374A00035039 /* MHSliderMenu.h */,
+				949737A21D58374A00035039 /* MHSliderMenu.m */,
+				9497379E1D58373900035039 /* MHSliderPickerItem.h */,
+				9497379F1D58373900035039 /* MHSliderPickerItem.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9485B3681D5470CF00F672CA /* MHSliderPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9485B3801D5470CF00F672CA /* Build configuration list for PBXNativeTarget "MHSliderPicker" */;
+			buildPhases = (
+				9485B3651D5470CF00F672CA /* Sources */,
+				9485B3661D5470CF00F672CA /* Frameworks */,
+				9485B3671D5470CF00F672CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHSliderPicker;
+			productName = MHSliderPicker;
+			productReference = 9485B3691D5470CF00F672CA /* MHSliderPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9485B3611D5470CF00F672CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = piggy;
+				TargetAttributes = {
+					9485B3681D5470CF00F672CA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = A4WST5Q2T6;
+					};
+				};
+			};
+			buildConfigurationList = 9485B3641D5470CF00F672CA /* Build configuration list for PBXProject "MHSliderPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9485B3601D5470CF00F672CA;
+			productRefGroup = 9485B36A1D5470CF00F672CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9485B3681D5470CF00F672CA /* MHSliderPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9485B3671D5470CF00F672CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9485B37C1D5470CF00F672CA /* LaunchScreen.storyboard in Resources */,
+				9485B3791D5470CF00F672CA /* Assets.xcassets in Resources */,
+				9485B3771D5470CF00F672CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9485B3651D5470CF00F672CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949737A01D58373900035039 /* MHSliderPickerItem.m in Sources */,
+				949737A61D589A1000035039 /* MHViewController.m in Sources */,
+				9485B36E1D5470CF00F672CA /* main.m in Sources */,
+				949737A31D58374A00035039 /* MHSliderMenu.m in Sources */,
+				9485B3851D54712D00F672CA /* MHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9485B3751D5470CF00F672CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9485B3761D5470CF00F672CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9485B37A1D5470CF00F672CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9485B37B1D5470CF00F672CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9485B37E1D5470CF00F672CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9485B37F1D5470CF00F672CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9485B3811D5470CF00F672CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MHSliderPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = piggy.MHSliderPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9485B3821D5470CF00F672CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MHSliderPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = piggy.MHSliderPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9485B3641D5470CF00F672CA /* Build configuration list for PBXProject "MHSliderPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9485B37E1D5470CF00F672CA /* Debug */,
+				9485B37F1D5470CF00F672CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9485B3801D5470CF00F672CA /* Build configuration list for PBXNativeTarget "MHSliderPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9485B3811D5470CF00F672CA /* Debug */,
+				9485B3821D5470CF00F672CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9485B3611D5470CF00F672CA /* Project object */;
+}
